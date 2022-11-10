@@ -1,0 +1,40 @@
+header {
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightpink;
+    color: white;
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+  }
+}
+
+h2 {
+  text-align: center;
+  background-color: lightpink;
+}
+
+form {
+  display: flex;
+  justify-content: space-evenly;
+  label {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 300px;
+  }
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  th {
+    background-color: #f08080;
+    cursor: pointer;
+  }
+  tr:nth-child(odd) {
+    background-color: #f1e0e0;
+  }
+}
